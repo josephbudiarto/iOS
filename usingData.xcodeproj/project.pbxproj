@@ -12,16 +12,20 @@
 		8181562A1E8355C20040BE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818156281E8355C20040BE4B /* Main.storyboard */; };
 		8181562C1E8355C20040BE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8181562B1E8355C20040BE4B /* Assets.xcassets */; };
 		8181562F1E8355C20040BE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8181562D1E8355C20040BE4B /* LaunchScreen.storyboard */; };
+		818156371E8356000040BE4B /* myList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 818156361E8356000040BE4B /* myList.plist */; };
+		818156391E836CDD0040BE4B /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818156381E836CDD0040BE4B /* myCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		818156211E8355C20040BE4B /* PList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818156211E8355C20040BE4B /* usingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = usingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818156241E8355C20040BE4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		818156261E8355C20040BE4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		818156291E8355C20040BE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8181562B1E8355C20040BE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8181562E1E8355C20040BE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		818156301E8355C20040BE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818156361E8356000040BE4B /* myList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myList.plist; sourceTree = "<group>"; };
+		818156381E836CDD0040BE4B /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = myCell.swift; path = ../myCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,7 @@
 		818156181E8355C10040BE4B = {
 			isa = PBXGroup;
 			children = (
-				818156231E8355C20040BE4B /* PList */,
+				818156231E8355C20040BE4B /* usingData */,
 				818156221E8355C20040BE4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +50,33 @@
 		818156221E8355C20040BE4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				818156211E8355C20040BE4B /* PList.app */,
+				818156211E8355C20040BE4B /* usingData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		818156231E8355C20040BE4B /* PList */ = {
+		818156231E8355C20040BE4B /* usingData */ = {
 			isa = PBXGroup;
 			children = (
 				818156241E8355C20040BE4B /* AppDelegate.swift */,
 				818156261E8355C20040BE4B /* ViewController.swift */,
+				818156381E836CDD0040BE4B /* myCell.swift */,
 				818156281E8355C20040BE4B /* Main.storyboard */,
 				8181562B1E8355C20040BE4B /* Assets.xcassets */,
 				8181562D1E8355C20040BE4B /* LaunchScreen.storyboard */,
 				818156301E8355C20040BE4B /* Info.plist */,
+				818156361E8356000040BE4B /* myList.plist */,
 			);
+			name = usingData;
 			path = PList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		818156201E8355C10040BE4B /* PList */ = {
+		818156201E8355C10040BE4B /* usingData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 818156331E8355C20040BE4B /* Build configuration list for PBXNativeTarget "PList" */;
+			buildConfigurationList = 818156331E8355C20040BE4B /* Build configuration list for PBXNativeTarget "usingData" */;
 			buildPhases = (
 				8181561D1E8355C10040BE4B /* Sources */,
 				8181561E1E8355C10040BE4B /* Frameworks */,
@@ -79,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = PList;
+			name = usingData;
 			productName = PList;
-			productReference = 818156211E8355C20040BE4B /* PList.app */;
+			productReference = 818156211E8355C20040BE4B /* usingData.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8181561C1E8355C10040BE4B /* Build configuration list for PBXProject "PList" */;
+			buildConfigurationList = 8181561C1E8355C10040BE4B /* Build configuration list for PBXProject "usingData" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				818156201E8355C10040BE4B /* PList */,
+				818156201E8355C10040BE4B /* usingData */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				818156371E8356000040BE4B /* myList.plist in Resources */,
 				8181562F1E8355C20040BE4B /* LaunchScreen.storyboard in Resources */,
 				8181562C1E8355C20040BE4B /* Assets.xcassets in Resources */,
 				8181562A1E8355C20040BE4B /* Main.storyboard in Resources */,
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				818156271E8355C20040BE4B /* ViewController.swift in Sources */,
+				818156391E836CDD0040BE4B /* myCell.swift in Sources */,
 				818156251E8355C20040BE4B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +292,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8181561C1E8355C10040BE4B /* Build configuration list for PBXProject "PList" */ = {
+		8181561C1E8355C10040BE4B /* Build configuration list for PBXProject "usingData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				818156311E8355C20040BE4B /* Debug */,
@@ -292,7 +301,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		818156331E8355C20040BE4B /* Build configuration list for PBXNativeTarget "PList" */ = {
+		818156331E8355C20040BE4B /* Build configuration list for PBXNativeTarget "usingData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				818156341E8355C20040BE4B /* Debug */,
